@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/alincode/bel-sandbox#readme",
   "dependencies": {
+    "csjs-inject": "^1.0.1",
     "nanohtml": "^1.2.4"
   },
   "devDependencies": {
