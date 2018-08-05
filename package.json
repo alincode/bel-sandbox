@@ -1,0 +1,27 @@
+{
+  "name": "bel-sandbox",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "budo src/index.js:bundle.js --dir ./ --live --open",
+    "build": "browserify src/index.js > bundle.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alincode/bel-sandbox.git"
+  },
+  "keywords": [],
+  "author": "alincode <alincode@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alincode/bel-sandbox/issues"
+  },
+  "homepage": "https://github.com/alincode/bel-sandbox#readme",
+  "dependencies": {
+    "nanohtml": "^1.2.4"
+  },
+  "devDependencies": {
+    "budo": "^11.3.2"
+  }
+}
